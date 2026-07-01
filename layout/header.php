@@ -442,6 +442,13 @@ $name = $_SESSION["name"];
                             <span>گزارش مالی خروجی</span>
                         </a>
                     </li>
+					
+					<li>
+                        <a href="../admin/meal_analysis_report.php">
+                            <i class="fas fa-sliders-h"></i>
+                            <span>گزارش مصرف تغذيه</span>
+                        </a>
+                    </li>
                 <?php endif; ?>
 
 
@@ -477,6 +484,20 @@ $name = $_SESSION["name"];
                     </li>
 
                     <li>
+                        <a href="../nutrition/ingredients.php">
+                            <i class="fas fa-sliders-h"></i>
+                            <span>مواد اوليه غذا</span>
+                        </a>
+                    </li>
+					
+					<li>
+                        <a href="../nutrition/meal_analysis.php">
+                            <i class="fas fa-sliders-h"></i>
+                            <span>آناليز غذا</span>
+                        </a>
+                    </li>
+					
+					<li>
                         <a href="../nutrition/meal_settings.php">
                             <i class="fas fa-sliders-h"></i>
                             <span>تنظیم وعده‌ها</span>
